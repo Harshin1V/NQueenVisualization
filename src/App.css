@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: #f7f7f7; /* Replace with your desired color */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+table td.Queen {
+  background-color: #ffd700;
+}
+
+h2 {
+  margin-top: 30px;
+}
